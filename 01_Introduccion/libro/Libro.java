@@ -22,6 +22,7 @@ public class Libro {
         this.autor = autor;
         this.añoPublicacion = añoPublicacion;
     }
+    //metodo
     public void mostrar_info(){
         System.out.println("Los datos son: " + titulo + "," + autor + "," +  añoPublicacion);
     }
