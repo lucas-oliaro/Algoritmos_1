@@ -16,9 +16,9 @@ public class Calculadora{
 
         
         //Ver como sigue el programa hasta que ingrese un numero correcto
-        int a;
+        double a;
         try {
-            a = Integer.parseInt(System.console().readLine());
+            a = Double.parseDouble(System.console().readLine());
         } catch (NumberFormatException nfe) {
             System.out.println("No es un numero");
         }
@@ -54,10 +54,10 @@ public class Calculadora{
         
 
 
-        int b;
+        Double b;
         System.out.println("Ingrese el segundo numero");
         try {
-            b = Integer.parseInt(System.console().readLine());
+            b = Double.parseDouble(System.console().readLine());
         } catch (NumberFormatException nfe) {
             System.out.println("No es un numero");
         }
