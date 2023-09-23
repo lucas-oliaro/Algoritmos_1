@@ -1,4 +1,4 @@
-package PalabrasEspeciales;
+package Palabras;
 import AnalisisEspecial.Especial;
 
 public class Programa {
