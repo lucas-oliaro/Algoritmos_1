@@ -1,2 +1,0 @@
-java es re gede
-hay dos formas de hacer packages
