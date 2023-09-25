@@ -1,6 +1,5 @@
 {
     "java.project.sourcePaths": [
-        "Ejercicios/src/02_Herencia/Ejercicio_Viaje",
-        "Ejercicios/src/01_Introduccion"
+        "Ejercicios/src"
     ]
 }
