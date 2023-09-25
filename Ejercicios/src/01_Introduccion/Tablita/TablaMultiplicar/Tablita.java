@@ -1,4 +1,4 @@
-package TablaMultiplicar;
+package Tablita.TablaMultiplicar;
 
 
 public class Tablita{

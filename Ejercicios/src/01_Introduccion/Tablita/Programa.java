@@ -1,4 +1,4 @@
-import TablaMultiplicar.Tablita; //O * importa todas las clases
+import Tablita.TablaMultiplicar.Tablita;
 
 public class Programa {
     
