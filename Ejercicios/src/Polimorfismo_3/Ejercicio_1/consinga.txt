@@ -1,0 +1,22 @@
+Estamos desarrollando una aplicación para gestionar una biblioteca de medios, como libros, películas y música. 
+Creamos una clase base llamada Medio y tres clases derivadas: Libro, Pelicula y Musica. 
+Cada una de estas clases tiene un método reproducir() que muestra información específica del medio.
+
+Debemos crear un programa que utilice el polimorfismo de inclusión para reproducir diferentes medios y
+ mostrar la información correspondiente.
+
+a) Crear una clase Medio con un método reproducir() que muestre un mensaje genérico como "Reproduciendo medio genérico".
+
+b) Crear tres subclases que extienden a Medio: Libro, Pelicula y Musica.
+Cada una de estas clases debe tener su propio método reproducir() 
+que muestre información específica del medio (por ejemplo, título y autor para un libro,
+título y director para una película, y título y artista para música). 
+
+c) En la clase Main, crear un arreglo de objetos de tipo Medio y agregar instancias de Libro, Pelicula y Musica. 
+d) Iterar a través del arreglo llamando al método reproducir() para cada elemento y mostrar la información correspondiente.
+
+Ejemplo de salida esperada:
+
+Reproduciendo Libro: "El Gran Gatsby" de F. Scott Fitzgerald
+Reproduciendo Película: "La La Land" dirigida por Damien Chazelle
+Reproduciendo Música: "Bohemian Rhapsody" por Queen
