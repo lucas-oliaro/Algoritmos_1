@@ -1,4 +1,4 @@
-package Unidad_4_Copia_Igualdad;
+package Unidad_4_Copia_Igualdad.Ejercicio_1;
 
 public class EstudianteGrado extends Estudiante {
     protected String carreraGrado;
