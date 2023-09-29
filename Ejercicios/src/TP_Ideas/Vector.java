@@ -21,6 +21,11 @@ public class Vector {
         matriz[1][1] = "Hola";
         matriz[1][2] = 3.14;
         matriz[1][3] = true;
+        /*
+         * La idea es usar a la columna por header, no por la estructura interna. De esa forma abstraemos
+         * Object[i]["column1"]
+         * De
+         */
 
     }
 
