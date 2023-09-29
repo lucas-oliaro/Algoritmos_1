@@ -1,3 +1,5 @@
+package Unidad_4_Copia_Igualdad.Ejercicio_2;
+
 class Persona implements Cloneable {
     private String nombre;
     private int edad;
@@ -33,6 +35,14 @@ class Persona implements Cloneable {
         } catch (CloneNotSupportedException e) {
             throw new AssertionError();
         }
+    }
+
+    public Persona(Persona original) {
+        //Copia profunda del Constructor con try-catch
+        
+            this.nombre = original.nombre;
+            this.edad = original.edad;
+            this.documento = original.documento.clone();
     }
 
     public Persona copiaSuperficial() {
