@@ -68,7 +68,15 @@ public class Matriz<T>{
     public String toString(){
         String out = "";
         String sep = " | ";
-        for (int i=0; i < columnas.get(index=0).size().)
+        for (String label : colLabels.keySet()){
+            out += label + sep;
+        }
+        for (int i=0; i < columnas.get(0).size(); i++){
+            for(int j = 0, j< columnas.size(); j++){
+                out += getCelda(i,j);
+                out += sep;
+            }
+        }
     }
 }
 
