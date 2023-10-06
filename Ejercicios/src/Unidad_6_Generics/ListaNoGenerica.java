@@ -28,9 +28,18 @@ public class ListaNoGenerica {
     }
 
     public void remover(Object elemento) {
+        /*
+         * No es una reduccion general del arreglo
+         * EStamos haciendo un shift, hacemos un while y movemos cad aelemento actual
+         * por el elemento que sigue.
+         * Hago un desplazamiento desde el que quiero, ejemplo remover posicion 2.
+         * Por lo que debeo trasaldar todos los elmentos que esten ubicados a la derecha de 2 (2+1,2+2,etc)
+         * a la izquierda asi se elimina. 
+         */
         int i = 0;
         boolean encontrado = false;
         while (i < size - 1) {
+            
             if (encontrado || elementos[i].equals(elemento)) {
                 encontrado = true;
                 elementos[i] = elementos[i + 1];
@@ -42,5 +51,9 @@ public class ListaNoGenerica {
             size--;
         }
     }
+
+
+
+    
 
 }
